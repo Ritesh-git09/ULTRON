@@ -1,0 +1,48 @@
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# AI models
+models/
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Ollama data
+.ollama/
+
+# Private configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Personal conversation history
+memory/conversation.json
+history/
+
+# Generated audio
+recordings/
+audio_output/
+*.wav
+*.mp3
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+tmp/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

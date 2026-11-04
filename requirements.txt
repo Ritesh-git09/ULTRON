@@ -1,0 +1,5 @@
+ollama
+kokoro
+sounddevice
+soundfile
+numpy
